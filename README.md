@@ -1,9 +1,12 @@
 # dojo_20150312
+
 exercises for the budapest.scala coding dojo
 
-exercise0:
+##exercise0:
+
 Find the last element of a list.
 
+```scala
   def last(l: List[Int]) = {
     null
   }
@@ -11,3 +14,4 @@ Find the last element of a list.
   val l = List(1, 1, 2, 3, 5, 8)
 
   assert(last(l) == 8)
+```
