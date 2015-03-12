@@ -29,3 +29,14 @@ Find out whether a list is a palindrome.
 
   assert(isPalindrome(l) == true)
 ```
+
+##exercise 2:
+
+Flatten a nested list structure.
+
+```scala
+    val l = List(List(1, 1), 2, List(3, List(5, 8)))
+    val r = List(1, 1, 2, 3, 5, 8)
+
+    assert(flatten(l) == r)
+```
