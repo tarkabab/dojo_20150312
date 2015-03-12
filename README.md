@@ -40,3 +40,15 @@ Flatten a nested list structure.
 
     assert(flatten(l) == r)
 ```
+
+##exercise 3:
+
+Find consecutive duplicates of elements in a list and encode them as tuples (N, E) where N is the number of duplicates of the element E.
+
+```scala
+    val l = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
+    val r = List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
+
+    assert(encode(l) == r)
+```
+
